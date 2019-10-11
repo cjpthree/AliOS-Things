@@ -83,6 +83,12 @@ if AOS_APP_HELLOWORLD
         default "helloworld"
 endif
 
+source "app/example/hellomidea/Config.in"
+if AOS_APP_HELLOMIDEA
+    config AOS_BUILD_APP
+        default "hellomidea"
+endif
+
 source "app/example/http2app/Config.in"
 if AOS_APP_HTTP2APP
     config AOS_BUILD_APP

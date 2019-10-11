@@ -1,0 +1,9 @@
+config AOS_APP_HELLOMIDEA
+    bool "HelloMidea"
+    select AOS_COMP_OSAL_AOS
+    help
+        Hello Midea
+
+if AOS_APP_HELLOMIDEA
+# Configurations for app hellomidea
+endif
